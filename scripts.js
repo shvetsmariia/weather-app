@@ -9,10 +9,10 @@ const weatherAPI = {
           const { name } = data.location; 
           const { text, icon } = data.current.condition;
           const { temp_c, temp_f, humidity, wind_kph } = data.current; 
-          
+              
           document.querySelector('.city').innerText = name; 
           document.querySelector('.description').innerText = text; 
-          document.querySelector('.icon').src = icon; 
+          document.querySelector('.icon').src = "https:" + icon; 
           document.querySelector('.temp').innerText = temp_c.toFixed(0) + "°C" + " / " + temp_f.toFixed(0) + "°F"; 
           document.querySelector('.humidity').innerText = "Humidity: " + humidity + "%"; 
           document.querySelector('.wind').innerText = "Wind speed: " + wind_kph + "km/h";
