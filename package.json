@@ -1,0 +1,27 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "This weather app allows you to check weather around the world.  For a real-time forecast enter the city in the search box.  The app is using weather forecasts from https://www.weatherapi.com Weather API service.",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shvetsmariia/weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shvetsmariia/weather-app/issues"
+  },
+  "homepage": "https://github.com/shvetsmariia/weather-app#readme",
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
